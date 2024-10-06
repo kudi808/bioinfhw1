@@ -2,10 +2,10 @@
 ссылки и случайная пятерка
 ```
 ls /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {}
-seqtk sample -s935 oil_R1.fastq 5000000 > S1.fastq
-seqtk sample -s935 oil_R2.fastq 5000000 > S2.fastq
-seqtk sample -s935 oilMP_S4_L001_R1_001.fastq 1500000 > M1.fastq
-seqtk sample -s935 oilMP_S4_L001_R2_001.fastq 1500000 > M2.fastq
+seqtk sample -s239 oil_R1.fastq 5000000 > S1.fastq
+seqtk sample -s239 oil_R2.fastq 5000000 > S2.fastq
+seqtk sample -s239 oilMP_S4_L001_R1_001.fastq 1500000 > M1.fastq
+seqtk sample -s239 oilMP_S4_L001_R2_001.fastq 1500000 > M2.fastq
 ```
 оцениваем качество чтений
 ```
