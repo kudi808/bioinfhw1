@@ -45,8 +45,7 @@ time platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 S1.fastq.trimmed S2.fas
 ```
 скачиваем полученные файлы черз scp
 ```
-screen
-time platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 S1.fastq.trimmed S2.fastq.trimmed -OP2 M1.fastq.int_trimmed M2.fastq.int_trimmed 2> gapclose.log
+scp -i  /home/lab/marat/marat -P 22 misayfudinov@172.21.136.17:~/Poil_contig.fa ./
 ```
 самый длинный и красивый скаффолд
 ```
