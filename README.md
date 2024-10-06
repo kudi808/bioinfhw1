@@ -1,4 +1,5 @@
 # bioinfhw1
+файл longest.fasta и scaf_long оказались пустыми:(
 ссылки и случайная пятерка
 ```
 ls /usr/share/data-minor-bioinf/assembly/* | xargs -tI{} ln -s {}
