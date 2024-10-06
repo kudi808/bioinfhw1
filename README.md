@@ -55,6 +55,7 @@ seqtk subseq Poil_gapClosed.fa _tmp.txt > longest.fasta
 вычисление кондигов и скоффилдов  и числа гэпов до подрезания
 
 https://colab.research.google.com/drive/144Eqr5T7OKAY2EAP2pMkgEtmzqWVW8D1?authuser=0#scrollTo=H9uw3cK8huFU
+
 Количество контигов: 621
 Длина контигов: 3924840
 Самый длинный контиг: 179307
